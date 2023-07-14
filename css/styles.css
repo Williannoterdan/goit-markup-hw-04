@@ -89,6 +89,16 @@ button:focus {
 
 /* Лого */
 
+.container::after{
+content: '';
+ position: absolute; 
+ left: 0; 
+ bottom: -1px;
+ height: 4px;
+ background-color: #404bbf; 
+ border-radius: 2px; 
+}
+
 .text-logo,
 .text-logo:hover,
 .text-logo:focus {
@@ -96,6 +106,7 @@ button:focus {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
+  position: relative;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.1;
