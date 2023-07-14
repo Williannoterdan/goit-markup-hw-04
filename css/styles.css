@@ -89,15 +89,7 @@ button:focus {
 
 /* Лого */
 
-.container::after{
-content: '';
- position: absolute; 
- left: 0; 
- bottom: -1px;
- height: 4px;
- background-color: #404bbf; 
- border-radius: 2px; 
-}
+.container
 
 .text-logo,
 .text-logo:hover,
@@ -106,7 +98,6 @@ content: '';
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  position: relative;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.1;
@@ -123,6 +114,7 @@ content: '';
 }
 
 /* Навігація по сайту */
+
 .up_menu {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
@@ -141,6 +133,7 @@ content: '';
 }
 .navigationpanel {
   text-decoration: none;
+  position: relative;
   color: var(--color-of-txt-two);
   font-weight: 500;
   font-size: 16px;
@@ -171,6 +164,19 @@ content: '';
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.stidio_menu_buton{
+  color: var(--color-hover);
+}
+.stidio_menu_buton::after{
+  content: '';
+   position: absolute; 
+   left: 0; 
+   bottom: -1px;
+   height: 4px;
+   background-color: #404bbf; 
+   border-radius: 2px; 
+  }
+  
 
 /* Section 1 */
 
