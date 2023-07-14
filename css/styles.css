@@ -163,6 +163,7 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .stidio_menu_buton{
   color: var(--color-hover);
@@ -173,6 +174,7 @@ button:focus {
    left: 0; 
    bottom: -1px;
    height: 4px;
+   width: 48px;
    background-color: #404bbf; 
    border-radius: 2px; 
   }
