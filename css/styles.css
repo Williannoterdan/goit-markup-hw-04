@@ -230,6 +230,10 @@ content: '';
   border-radius: 4px;
   background-color: var(--cloud, #F4F4FD);
   align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 112px; 
+  margin-bottom: 8px;
 }
 .company-codexs-h {
   font-weight: 500;
