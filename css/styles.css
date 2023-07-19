@@ -353,14 +353,15 @@ button:focus {
   align-items: center;
 
 }
-.ul_my_tim{
-  display: flex;
-}
+
 .container_my_tim_icon .icon{
   fill: var(--color-of-background-one);
 }
 .social_icon_my_tim{
   align-items: center;
+  display: flex;
+  justify-content: center; 
+  gap: 24px;
 }
 /* Section 5 */
 .container__customers{
