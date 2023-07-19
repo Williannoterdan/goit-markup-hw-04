@@ -345,7 +345,7 @@ button:focus {
   text-align: center;
 }
 .container_my_tim_icon{
-  display: block;
+  display: flex;
   background-color: var(--color-of-background-thre);
   box-sizing: border-box;
   height: 40px;
