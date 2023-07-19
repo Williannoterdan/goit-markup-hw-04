@@ -314,7 +314,9 @@ button:focus {
   margin-bottom: 72px;
 }
 .ul_my_tim {
+  align-items: center;
   display: flex;
+  justify-content: center; 
   gap: 24px;
 }
 .li_my_tim {
@@ -357,12 +359,7 @@ button:focus {
 .container_my_tim_icon .icon{
   fill: var(--color-of-background-one);
 }
-.social_icon_my_tim{
-  align-items: center;
-  display: flex;
-  justify-content: center; 
-  gap: 24px;
-}
+
 /* Section 5 */
 .section_customers{
   padding: 120px 0;
