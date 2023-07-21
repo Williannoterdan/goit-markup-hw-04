@@ -232,7 +232,6 @@ button:focus {
 }
 /* Section 2 */
 .codexs-section .icon_conteiner{
-  display: block;
   box-sizing: border-box;
   padding: 24px 100px;
   border-radius: 4px;
@@ -371,11 +370,13 @@ button:focus {
   box-sizing: border-box;
   width: 168px;
   height: 88px; 
-  border-radius: 100%;
-  align-items: center;
+  display: flex;
   border-radius: 4px;
-border: 1px solid var(--lightslate, #8E8F99);
-fill: #8E8F99; 
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--lightslate, #8E8F99);
+  fill: #8E8F99; 
+
 
 }
 
@@ -394,12 +395,14 @@ fill: #8E8F99;
   flex-direction: column;
 }
 
-.ul_proces {
+.ul_customers {
   display: flex;
   gap: 24px;
 }
-.li_proces {
-  width: calc((100% - 48px) / 3);
+
+.li_section_customers{
+  width: calc((100% - 120px) / 6);
+
 }
 /* Foter */
 
