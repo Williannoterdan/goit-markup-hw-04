@@ -366,7 +366,6 @@ button:focus {
   padding: 120px 0;
 }
 .container__customers{
-  display: block;
   box-sizing: border-box;
   width: 168px;
   height: 88px; 
