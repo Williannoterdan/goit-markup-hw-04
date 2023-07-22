@@ -437,7 +437,10 @@ button:focus {
 .div_footer{
   display: flex;
   align-items: baseline;
+}
+.div_indiv_footer{
   margin-right: 120px
+
 }
 .ul_footer {
   align-items: center;
@@ -480,7 +483,7 @@ button:focus {
   color: var(--color-of-background-one);
   letter-spacing: 0.02em;
   width: 264px;
-  font-weight: 500
+  font-weight: 500;
   margin-bottom: 16px;
 }
 
