@@ -178,7 +178,16 @@ button:focus {
    background-color: #404bbf; 
    border-radius: 2px; 
   }
-  
+  .portfolio_menu_buton::after{
+    content: '';
+     position: absolute; 
+     left: 0; 
+     bottom: -1px;
+     height: 4px;
+     width: 66px;
+     background-color: #404bbf; 
+     border-radius: 2px; 
+    }
 
 /* Section 1 */
 
@@ -480,6 +489,7 @@ button:focus {
 .boton_tail:hover,
 .boton_tail:focus {
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
 }
 .list_ul_li_prodact {
   display: flex;
@@ -497,4 +507,12 @@ button:focus {
 }
 .prodact_txt .company-codexs-h {
   margin-bottom: 8px;
+}
+/* Row1 */
+.a_row_1{
+  display: block;
+}
+.a_row_1:hover,
+.a_row_1:focus{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
