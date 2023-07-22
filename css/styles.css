@@ -168,6 +168,9 @@ button:focus {
 .stidio_menu_buton{
   color: var(--color-hover);
 }
+.portfolio_menu_buton{
+  color: var(--color-hover);
+}
 .stidio_menu_buton::after{
   content: '';
    position: absolute; 
