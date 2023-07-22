@@ -437,8 +437,14 @@ button:focus {
 .div_footer{
   display: flex;
   align-items: baseline;
+  margin-right: 120px
 }
-
+.ul_footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
 .text-logo-footer,
 .text-logo-footer:hover,
 .text-logo-footer:focus {
@@ -466,14 +472,16 @@ button:focus {
   margin-bottom: 16px;
 }
 .text-logo-footer-span {
-  color: var(--color-of-background-two);
+  color: var(--color-of-background-one);
   display: inline-block;
 }
 .p_footer_intro {
   line-height: 1.5;
-  color: var(--color-of-background-two);
+  color: var(--color-of-background-one);
   letter-spacing: 0.02em;
   width: 264px;
+  font-weight: 500
+  margin-bottom: 16px;
 }
 
 /* Portfolio-main */
