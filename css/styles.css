@@ -374,11 +374,15 @@ button:focus {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
 .container_my_tim_icon .icon {
-  fill: var(--color-of-background-one);
+  fill: var(--color-of-background-two);
+}
+.link_my_tim_icon:hover,
+.link_my_tim_icon:focus{
+  background-color: var(--color-hover); 
 }
 
 /* Section 5 */
