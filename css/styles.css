@@ -434,6 +434,11 @@ button:focus {
 }
 /* Foter */
 
+.div_footer{
+  display: flex;
+  align-items: baseline;
+}
+
 .text-logo-footer,
 .text-logo-footer:hover,
 .text-logo-footer:focus {
