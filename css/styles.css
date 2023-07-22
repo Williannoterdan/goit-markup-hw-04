@@ -395,16 +395,21 @@ button:focus {
   display: flex;
   height: 100%;
   width: 100%;
+  color: var(--color-of-background-for);
   border: 1px solid var(--lightslate, var(--color-of-background-for));
   border-radius: 4px;
   justify-content: center;
   align-items: center;
-  fill: var(--color-of-background-for);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.link_customers:hover,
+.link_customers:focus{
+  border-color: var(--color-hover); 
 }
 .customers_conteiner {
   align-items: center;
 }
-.container_customers .icon {
+.link_customers .icon {
   fill: currentColor;
 }
 .section-proces {
