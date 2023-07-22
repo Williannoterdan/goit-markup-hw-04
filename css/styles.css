@@ -10,6 +10,7 @@
   --color-of-txt-two: #2e2f42;
   --color-of-background-two: #f4f4fd;
   --color-of-background-thre: #4d5ae5;
+  --color-of-background-for: #8e8f99;
 }
 
 h1,
@@ -399,7 +400,7 @@ button:focus {
   display: flex;
   height: 100%;
   width: 100%;
-  border: 1px solid var(--lightslate, #8e8f99);
+  border: 1px solid var(--lightslate, var(--color-of-background-for));
   border-radius: 4px;
   justify-content: center;
   align-items: center;
@@ -410,7 +411,7 @@ button:focus {
   align-items: center;
 }
 .container_customers .icon {
-  fill: #8e8f99;
+  fill: currentColor;
 }
 .section-proces {
   padding-bottom: 120px;
