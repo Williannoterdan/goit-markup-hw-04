@@ -5,6 +5,7 @@
 }
 :root {
   --color-hover: #404bbf;
+  --color-hover-footer: #31d0aa; ;
   --color-of-txt-one: #434455;
   --color-of-background-one: #ffffff;
   --color-of-txt-two: #2e2f42;
@@ -358,13 +359,8 @@ button:focus {
   text-align: center;
 }
 .container_my_tim_icon {
-  
-  
   height: 40px;
   width: 40px;
-
-  
-
 }
 .link_my_tim_icon {
   display: flex;
@@ -448,6 +444,29 @@ button:focus {
   justify-content: center;
   gap: 16px;
 }
+.li_footer {
+  height: 40px;
+  width: 40px;
+}
+.link_footer {
+  display: flex;
+  box-sizing: border-box;
+  background-color: var(--color-of-background-thre);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
+}
+.li_footer .icon {
+  fill: var(--color-of-background-two);
+}
+.link_footer:hover,
+.link_footer:focus{
+  background-color: var(--color-hover-footer); 
+}
 .text-logo-footer,
 .text-logo-footer:hover,
 .text-logo-footer:focus {
@@ -486,6 +505,7 @@ button:focus {
   font-weight: 500;
   margin-bottom: 16px;
 }
+
 
 /* Portfolio-main */
 .button_filter {
