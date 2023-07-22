@@ -390,12 +390,7 @@ button:focus {
 .section_customers {
   padding: 120px 0;
 }
-.container__customers {
 
-  width: 168px;
-  height: 88px;
-
-}
 .link_customers {
   display: flex;
   height: 100%;
@@ -404,8 +399,7 @@ button:focus {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
- 
-  fill: #8e8f99;
+  fill: var(--color-of-background-for);
 }
 .customers_conteiner {
   align-items: center;
@@ -429,6 +423,7 @@ button:focus {
 
 .li_section_customers {
   width: calc((100% - 120px) / 6);
+  height: 88px;
   justify-content: center;
   align-items: center;
 }
