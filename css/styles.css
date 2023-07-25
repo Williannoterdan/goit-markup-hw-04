@@ -617,7 +617,7 @@ button:focus {
   overflow: hidden;
 }
 
-.p_in_img_portfolio_div {
+ .a_row .p_in_img_portfolio_div {
   position: absolute;
   top: 0;
   font-size: 16px;
