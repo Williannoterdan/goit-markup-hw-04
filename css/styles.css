@@ -5,7 +5,7 @@
 }
 :root {
   --color-hover: #404bbf;
-  --color-hover-footer: #31d0aa; ;
+  --color-hover-footer: #31d0aa;
   --color-of-txt-one: #434455;
   --color-of-background-one: #ffffff;
   --color-of-txt-two: #2e2f42;
@@ -371,15 +371,14 @@ button:focus {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container_my_tim_icon .icon {
   fill: var(--color-of-background-two);
 }
 .link_my_tim_icon:hover,
-.link_my_tim_icon:focus{
-  background-color: var(--color-hover); 
+.link_my_tim_icon:focus {
+  background-color: var(--color-hover);
 }
 
 /* Section 5 */
@@ -396,11 +395,12 @@ button:focus {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link_customers:hover,
-.link_customers:focus{
-  border-color: var(--color-hover); 
+.link_customers:focus {
+  border-color: var(--color-hover);
 }
 .customers_conteiner {
   align-items: center;
@@ -430,13 +430,12 @@ button:focus {
 }
 /* Foter */
 
-.div_footer{
+.div_footer {
   display: flex;
   align-items: baseline;
 }
-.div_indiv_footer{
-  margin-right: 120px
-
+.div_indiv_footer {
+  margin-right: 120px;
 }
 .ul_footer {
   align-items: center;
@@ -457,15 +456,14 @@ button:focus {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .li_footer .icon {
   fill: var(--color-of-background-two);
 }
 .link_footer:hover,
-.link_footer:focus{
-  background-color: var(--color-hover-footer); 
+.link_footer:focus {
+  background-color: var(--color-hover-footer);
 }
 .text-logo-footer,
 .text-logo-footer:hover,
@@ -506,20 +504,32 @@ button:focus {
   margin-bottom: 16px;
 }
 /* modal */
-.container_js{
+.container_js {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.is-hidden{
+.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+.container_in_container_js {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 408px;
+  min-height: 584px;
+  background: #fcfcfc;
+  box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Portfolio-main */
@@ -588,8 +598,8 @@ button:focus {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .a_row:hover .p_in_img_portfolio_div,
-.a_row:focus .p_in_img_portfolio_div{
-  transform: translateY(0%); 
+.a_row:focus .p_in_img_portfolio_div {
+  transform: translateY(0%);
 }
 .img_portfolio_div {
   position: relative;
