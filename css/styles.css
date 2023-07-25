@@ -630,10 +630,7 @@ button:focus {
   height: 100%;
   width: 100%;
   transform: translateY(100%); 
-  
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
- 
-
 }
 .a_row:hover .p_in_img_portfolio_div,
 .a_row:focus .p_in_img_portfolio_div {
