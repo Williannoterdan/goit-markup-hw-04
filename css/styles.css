@@ -207,7 +207,8 @@ button:focus {
   background-position: center;
   padding: 188px 0;
   height: 600px;
-
+  max-width: 1440px;
+  max-width: 100%;
   background-size: cover;
   
 }
