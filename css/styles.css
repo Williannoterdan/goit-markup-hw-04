@@ -201,7 +201,7 @@ button:focus {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/mainpage/people_office_work_table.jpg);
+    url(../images/mainpage/people_office_work_table.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -249,7 +249,6 @@ button:focus {
 /* Section 2 */
 .codexs-section .icon_conteiner {
   box-sizing: border-box;
-  padding: 24px 100px;
   border-radius: 4px;
   background-color: var(--cloud, #f4f4fd);
   align-items: center;
@@ -359,6 +358,7 @@ button:focus {
   letter-spacing: 0.02em;
   color: var(--color-of-txt-one);
   text-align: center;
+  margin: 8px 0;
 }
 .container_my_tim_icon {
   height: 40px;
@@ -442,7 +442,6 @@ button:focus {
 .ul_footer {
   align-items: center;
   display: flex;
-  justify-content: center;
   gap: 16px;
 }
 .li_footer {
