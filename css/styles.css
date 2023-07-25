@@ -617,8 +617,9 @@ button:focus {
   overflow: hidden;
 }
 
- .a_row .p_in_img_portfolio_div {
+ .p_in_img_portfolio_div {
   position: absolute;
+ 
   top: 0;
   font-size: 16px;
   line-height: 1.5;
@@ -629,6 +630,7 @@ button:focus {
   height: 100%;
   width: 100%;
   transform: translateY(100%); 
+  
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 
